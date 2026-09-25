@@ -32,5 +32,50 @@ export const contentTypes = {
       { name: 'repoUrl', type: 'text' },
       { name: 'featured', type: 'checkbox' }
     ]
+  },
+  blogs: {
+    endpoint: '/api/blogs',
+    label: 'Blogs',
+    fields: [
+      { name: 'title', type: 'text' },
+      { name: 'slug', type: 'text' },
+      { name: 'content', type: 'textarea' },
+      { name: 'coverImage', type: 'text' },
+      { name: 'tags', type: 'tags' },
+      { name: 'published', type: 'checkbox' }
+    ]
+  },
+  experience: {
+    endpoint: '/api/experience',
+    label: 'Experience',
+    fields: [
+      { name: 'company', type: 'text' },
+      { name: 'role', type: 'text' },
+      { name: 'startDate', type: 'date' },
+      { name: 'endDate', type: 'date' },
+      { name: 'description', type: 'textarea' },
+      { name: 'current', type: 'checkbox' }
+    ]
+  },
+  testimonials: {
+    endpoint: '/api/testimonials',
+    label: 'Testimonials',
+    fields: [
+      { name: 'name', type: 'text' },
+      { name: 'position', type: 'text' },
+      { name: 'company', type: 'text' },
+      { name: 'message', type: 'textarea' },
+      { name: 'avatar', type: 'text' }
+    ]
+  },
+  services: {
+    endpoint: '/api/services',
+    label: 'Services',
+    fields: [
+      { name: 'title', type: 'text' },
+      { name: 'description', type: 'textarea' },
+      { name: 'icon', type: 'text' },
+      { name: 'price', type: 'text' }
+    ]
   }
 };
