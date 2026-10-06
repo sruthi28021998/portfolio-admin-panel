@@ -62,8 +62,3 @@ Deployed on [Vercel](https://vercel.com) as a static Vite build.
 - **Environment variable:** `VITE_API_URL` set to the live backend URL
 - `vercel.json` included to handle client-side routing (SPA rewrites)
 
-Live URL: `https://portfolio-admin-panel.vercel.app` *(update with your actual URL)*
-
-## Related Repos
-- [portfolio-backend-cms](https://github.com/<your-username>/portfolio-backend-cms) — API and database
-- [portfolio-frontend](https://github.com/<your-username>/portfolio-frontend) — public portfolio site
